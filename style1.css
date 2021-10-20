@@ -5,6 +5,7 @@
     *{
         box-sizing: border-box;
     }
+    
     body{
         margin: 0;
         font-family: 'Kiwi Maru', serif;
@@ -13,9 +14,9 @@
     .navbar-light .navbar-brand {
         color: #bebdbd;
     }
-    .navbar-light .navbar-nav .active>.nav-link{
+    /* .navbar-light .navbar-nav .active>.nav-link{
         color: #bebdbd;
-    }
+    } */
     .navbar{
         
         font-weight: 600;
@@ -151,11 +152,6 @@
         color: white;
     
     }
-/* 
-    .flexwrap{
-        display: flex;
-        justify-content: center;
-    } */
 
     .works{
         background-color: #f7f7f7;
@@ -163,8 +159,12 @@
         padding-top: 80px;
         padding-bottom: 105px;
     }
+    .works .row{
+        margin-right: 0;
+        margin-left: 0;
+    }
     .works img{
-        width: 300px;
+        width: 300px
     }
     .works h2{
         /* margin-bottom: 25px; */
@@ -191,9 +191,9 @@
         font-size: 15px;
     }
 
-    .service{
+    /* .service{
         margin: 120px auto;
-    }
+    } */
     .service h2{
         margin-bottom: 25px;
         font-size: 40px;
@@ -202,9 +202,9 @@
         display: flex;
         justify-content: space-evenly;
     }
-    .icon-responsive{
+    /* .icon-responsive{
         width: 20%;
-    }
+    } */
 
     
     .text{
